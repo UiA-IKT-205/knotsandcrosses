@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AlertDialog
 import no.uia.ikt205.knotsandcrosses.api.GameService
+import no.uia.ikt205.knotsandcrosses.api.data.Game
 import no.uia.ikt205.knotsandcrosses.databinding.ActivityMainBinding
 import no.uia.ikt205.thgame.dialogs.CreateGameDialog
 import no.uia.ikt205.thgame.dialogs.GameDialogListener

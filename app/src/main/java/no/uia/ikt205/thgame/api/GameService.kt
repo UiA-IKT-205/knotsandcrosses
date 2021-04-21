@@ -62,15 +62,15 @@ object GameService {
         requestQue.add(request)
     }
 
-    fun joinGame(playerId:String, gameId:String, callback: (GameState) -> Unit){
+    fun joinGame(playerId:String, gameId:String, callback: GameServiceCallback){
 
     }
 
-    fun updateGame(gameId: String, gameState:GameState, callback: (GameState) -> Unit){
+    fun updateGame(gameId: String, gameState:GameState, callback: GameServiceCallback){
 
     }
 
-    fun pollGame(gameId: String,callback: (GameState) -> Unit){
+    fun pollGame(gameId: String,callback:GameServiceCallback){
 
     }
 
